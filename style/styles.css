@@ -24,8 +24,8 @@
     transition: all 0.3s ease;
 }
 .btn:hover {
-    background-color: blueviolet;
-    box-shadow: 0 0 10px 2px #469165;
+    background-color: burlywood;
+        box-shadow: 0 0 3px 2px #469165;
 }
 
 /* ---------------Nav-bar section------------------*/
@@ -237,4 +237,32 @@
     line-height: 24px;
     color: #627382;
     padding: 10px 0px;
+}
+/*---------footer section style------------*/
+
+footer {
+    background-color: #001931;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-logo {
+    width: 100%;
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    margin-top: 20px;
+    /* margin-bottom: 90px; */
+}
+
+#footer-paragraph {
+    text-align: center;
+    line-height: 0px;
+    color: #708292;
+    padding-top: 200px;
 }
