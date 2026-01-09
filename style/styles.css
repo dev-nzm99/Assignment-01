@@ -108,3 +108,59 @@
 }
 
 .secendary {}
+/* --------------------middle_section1----------------------------- */
+#learning-card img {
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+}
+
+#middle_section1 {
+    text-align: center;
+    margin: 0px 120px;
+}
+
+#div-content {
+    /* margin-top: 30px; */
+    padding: 40px 0;
+}
+
+#div-content h2 {
+    font-size: 48px;
+    font-weight: 700px;
+}
+
+#div-content p {
+    font-size: 16px;
+    /* line-height: 20px; */
+    color: #627382;
+}
+
+.box-style {
+    background-color: antiquewhite;
+    padding: 65px 20px 0px 20px;
+    height: 300px;
+    width: 320px;
+    /* padding-top: 40px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+#learning-card {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.box-style p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #627382;
+}
