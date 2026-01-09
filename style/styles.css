@@ -24,7 +24,7 @@
     transition: all 0.3s ease;
 }
 .btn:hover {
-    background-color: burlywood;
+    background-color: #4CAF50;
         box-shadow: 0 0 3px 2px #469165;
 }
 
@@ -51,6 +51,11 @@
     color: black;
     font-size: 16px;
     font-weight: 500;
+    transition: all 0.3s ease;
+    }
+    
+    #navbar ul li a:hover {
+        color: blueviolet;
 }
 
 /*--------------------Banner Section------------------*/
@@ -86,6 +91,13 @@
     align-items: center;
     border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    
+    #early-acccess-btn:hover {
+        background-color: transparent;
+        color: white;
+        box-shadow: 0 0 3px 2px #469165;
 }
 
 .paragraph {
@@ -107,7 +119,12 @@
     padding-right: 24px;
 }
 
-/* --------------------middle_section1----------------------------- */
+.secendary {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* --------------------notes-section----------------------------- */
 #learning-card img {
     background-color: #F95555;
     width: 60px;
@@ -117,7 +134,7 @@
     border-radius: 50%;
 }
 
-#middle_section1 {
+#notes-section {
     text-align: center;
     /* margin: 0px 120px; */
 }
@@ -166,8 +183,8 @@
     margin-top: 10px;
     color: #627382;
 }
-/* ---------middle_section2 style--------------- */
-#middle_section2 {
+/* ---------second-brain-section--------------- */
+#second-brain-section {
     display: flex;
     padding-top: 60px;
     width: 1360px;
@@ -177,28 +194,28 @@
         box-sizing: border-box;
 }
 
-#middle_section2 #knowledge-img {
+#second-brain-section #knowledge-img {
     width: 600px;
         height: 600px;
     padding-bottom: 20px;
 }
 
-#middle_section2 #section-content {
+#second-brain-section #section-content {
     margin-left: 100px;
     margin-top: 120px;
 }
 
-#middle_section2 #section-content #caption {
+#second-brain-section #section-content #caption {
     font-size: 16px;
     color: #469165;
 }
 
-#middle_section2 #section-content h2 {
+#second-brain-section #section-content h2 {
     font-size: 48px;
     padding-top: 20px;
 }
 
-#middle_section2 #section-content #paragraph {
+#second-brain-section #section-content #paragraph {
     padding: 20px 0px;
     font-size: 16px;
     color: #627382;
@@ -206,7 +223,7 @@
     font-weight: 400px;
 }
 
-#middle_section2 #section-content #list-style {
+#second-brain-section #section-content #list-style {
     /*Special css property for set an image as the bullet for each list item.*/
     list-style-image: url('../assets/CheckCircle.png');
     font-size: 16px;
@@ -214,8 +231,8 @@
     color: #001931;
     padding-left: 20px;
 }
-/* --------middle_section3 style-------------- */
-#middle_section3 {
+/* --------early-access-section -------------- */
+#early-access-section {
     background-color: #F7F6F2;
     height: 380px;
     width: 1360px;
@@ -227,18 +244,18 @@
     border-radius: 12px;
 }
 
-#middle_section3 #content h2 {
+#early-access-section #content h2 {
     font-size: 40px;
 
 }
 
-#middle_section3 p {
+#early-access-section p {
     font-size: 16px;
     line-height: 24px;
     color: #627382;
     padding: 10px 0px;
 }
-/*---------footer section style------------*/
+/*---------footer section------------*/
 
 footer {
     background-color: #001931;
@@ -259,10 +276,25 @@ footer {
     margin-top: 20px;
     /* margin-bottom: 90px; */
 }
-
+#social-links a {
+    color: #F7F6F2;
+}
 #footer-paragraph {
     text-align: center;
     line-height: 0px;
     color: #708292;
-    padding-top: 200px;
+    padding-top: 170px;
+    }
+    
+    .horizontal-line {
+        width: 80%;
+        border-top: 1px solid #fff;
+        margin: 20px auto;
+        opacity: 0.5;
+    }
+    
+    #social-links p {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
 }
