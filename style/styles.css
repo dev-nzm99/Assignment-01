@@ -120,7 +120,7 @@
 
 #middle_section1 {
     text-align: center;
-    margin: 0px 120px;
+    /* margin: 0px 120px; */
 }
 
 #div-content {
@@ -154,13 +154,64 @@
 
 #learning-card {
     display: flex;
-    gap: 20px;
+    width: 1360px;
+        height: 300px;
+        margin: 0 auto;
+        gap: 30px;
     justify-content: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .box-style p {
     font-size: 16px;
     margin-top: 10px;
     color: #627382;
+}
+/* ---------middle_section2 style--------------- */
+#middle_section2 {
+    display: flex;
+    padding-top: 60px;
+    width: 1360px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#middle_section2 #knowledge-img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+#middle_section2 #section-content {
+    margin-left: 100px;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+}
+
+#middle_section2 #section-content #caption {
+    font-size: 16px;
+    color: #469165;
+}
+
+#middle_section2 #section-content h2 {
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+#middle_section2 #section-content #paragraph {
+    padding: 20px 0px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    font-weight: 400px;
+}
+
+#middle_section2 #section-content #list-style {
+    /*Special css property for set an image as the bullet for each list item.*/
+    list-style-image: url('../assets/CheckCircle.png');
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    padding-left: 20px;
 }
